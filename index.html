@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<HTML>
+<STYLE>
+    div {
+        display: inline;
+        font-size: 26px;
+    }
+</STYLE>
+
+<BODY>
+<div>Get random dog picture:</div>
+<select id="Breed" name="Breed">
+<option value="affenpinscher">affenpinscher</option>
+<option value="african">African</option>
+<option value="airedale">Airedale</option>
+<option value="akita">Akita</option>
+<option value="appenzeller">Appenzeller</option>
+<option value="australian/shepherd">Australian Shepherd</option>
+<option value="basenji">Basenji</option>
+<option value="beagle">Beagle</option>
+<option value="bluetick">Bluetick</option>
+<option value="borzoi">Borzoi</option>
+<option value="bouvier">Bouvier</option>
+<option value="boxer">Boxer</option>
+<option value="brabancon">Brabancon</option>
+<option value="briard">Briard</option>
+<option value="buhund/norwegian">Buhund Norwegian</option>
+<option value="bulldog/boston">Bulldog Boston</option>
+<option value="bulldog/english">Bulldog English</option>
+<option value="bulldog/french">Bulldog French</option>
+<option value="bullterrier/staffordshire">Bullterrier Staffordshire</option>
+<option value="cattledog/australian">Cattledog Australian</option>
+<option value="chihuahua">Chihuahua</option>
+<option value="chow">Chow</option>
+<option value="clumber">Clumber</option>
+<option value="cockapoo">Cockapoo</option>
+<option value="collie/border">Collie Border</option>
+<option value="coonhound">Coonhound</option>
+<option value="corgi/cardigan">Corgi Cardigan</option>
+<option value="cotondetulear">Cotondetulear</option>
+<option value="dachshund">Dachshund</option>
+<option value="dalmatian">Dalmatian</option>
+<option value="dane/great">Dane Great</option>
+<option value="deerhound/scottish">Deerhound Scottish</option>
+<option value="dhole">Dhole</option>
+<option value="dingo">Dingo</option>
+<option value="doberman">Doberman</option>
+<option value="elkhound/norwegian">Elkhound Norwegian</option>
+<option value="entlebucher">Entlebucher</option>
+<option value="eskimo">Eskimo</option>
+<option value="finnish/lapphund">Finnish Lapphund</option>
+<option value="frise/bichon">Frise Bichon</option>
+<option value="germanshepherd">Germanshepherd</option>
+<option value="greyhound/italian">Greyhound Italian</option>
+<option value="groenendael">Groenendael</option>
+<option value="havanese">Havanese</option>
+<option value="hound/afghan">Hound Afghan</option>
+<option value="hound/basset">Hound Basset</option>
+<option value="hound/blood">Hound Blood</option>
+<option value="hound/english">Hound English</option>
+<option value="hound/ibizan">Hound Ibizan</option>
+<option value="hound/plott">Hound Plott</option>
+<option value="hound/walker">Hound Walker</option>
+<option value="husky">Husky</option>
+<option value="keeshond">Keeshond</option>
+<option value="kelpie">Kelpie</option>
+<option value="komondor">Komondor</option>
+<option value="kuvasz">Kuvasz</option>
+<option value="labradoodle">Labradoodle</option>
+<option value="labrador">Labrador</option>
+<option value="leonberg">Leonberg</option>
+<option value="lhasa">Lhasa</option>
+<option value="malamute">Malamute</option>
+<option value="malinois">Malinois</option>
+<option value="maltese">Maltese</option>
+<option value="mastiff/bull">Mastiff Bull</option>
+<option value="mastiff/english">Mastiff English</option>
+<option value="mastiff/tibetan">Mastiff Tibetan</option>
+<option value="mexicanhairless">Mexicanhairless</option>
+<option value="mix">Mix</option>
+<option value="mountain/bernese">Mountain Bernese</option>
+<option value="mountain/swiss">Mountain Swiss</option>
+<option value="newfoundland">Newfoundland</option>
+<option value="otterhound">Otterhound</option>
+<option value="ovcharka/caucasian">Ovcharka Caucasian</option>
+<option value="papillon">Papillon</option>
+<option value="pekinese">Pekinese</option>
+<option value="pembroke">Pembroke</option>
+<option value="pinscher/miniature">Pinscher Miniature</option>
+<option value="pitbull">Pitbull</option>
+<option value="pointer/german">Pointer German</option>
+<option value="pointer/germanlonghair">Pointer Germanlonghair</option>
+<option value="pomeranian">Pomeranian</option>
+<option value="poodle/medium">Poodle Medium</option>
+<option value="poodle/miniature">Poodle Miniature</option>
+<option value="poodle/standard">Poodle Standard</option>
+<option value="poodle/toy">Poodle Toy</option>
+<option value="pug">Pug</option>
+<option value="puggle">Puggle</option>
+<option value="pyrenees">Pyrenees</option>
+<option value="redbone">Redbone</option>
+<option value="retriever/chesapeake">Retriever Chesapeake</option>
+<option value="retriever/curly">Retriever Curly</option>
+<option value="retriever/flatcoated">Retriever Flatcoated</option>
+<option value="retriever/golden">Retriever Golden</option>
+<option value="ridgeback/rhodesian">Ridgeback Rhodesian</option>
+<option value="rottweiler">Rottweiler</option>
+<option value="saluki">Saluki</option>
+<option value="samoyed">Samoyed</option>
+<option value="schipperke">Schipperke</option>
+<option value="schnauzer/giant">Schnauzer Giant</option>
+<option value="schnauzer/miniature">Schnauzer Miniature</option>
+<option value="setter/english">Setter English</option>
+<option value="setter/gordon">Setter Gordon</option>
+<option value="setter/irish">Setter Irish</option>
+<option value="sharpei">Sharpei</option>
+<option value="sheepdog/english">Sheepdog English</option>
+<option value="sheepdog/shetland">Sheepdog Shetland</option>
+<option value="shiba">Shiba</option>
+<option value="shihtzu">Shihtzu</option>
+<option value="spaniel/blenheim">Spaniel Blenheim</option>
+<option value="spaniel/brittany">Spaniel Brittany</option>
+<option value="spaniel/cocker">Spaniel Cocker</option>
+<option value="spaniel/irish">Spaniel Irish</option>
+<option value="spaniel/japanese">Spaniel Japanese</option>
+<option value="spaniel/sussex">Spaniel Sussex</option>
+<option value="spaniel/welsh">Spaniel Welsh</option>
+<option value="springer/english">Springer English</option>
+<option value="stbernard">Stbernard</option>
+<option value="terrier/american">Terrier American</option>
+<option value="terrier/australian">Terrier Australian</option>
+<option value="terrier/bedlington">Terrier Bedlington</option>
+<option value="terrier/border">Terrier Border</option>
+<option value="terrier/cairn">Terrier Cairn</option>
+<option value="terrier/dandie">Terrier Dandie</option>
+<option value="terrier/fox">Terrier Fox</option>
+<option value="terrier/irish">Terrier Irish</option>
+<option value="terrier/kerryblue">Terrier Kerryblue</option>
+<option value="terrier/lakeland">Terrier Lakeland</option>
+<option value="terrier/norfolk">Terrier Norfolk</option>
+<option value="terrier/norwich">Terrier Norwich</option>
+<option value="terrier/patterdale">Terrier Patterdale</option>
+<option value="terrier/russell">Terrier Russell</option>
+<option value="terrier/scottish">Terrier Scottish</option>
+<option value="terrier/sealyham">Terrier Sealyham</option>
+<option value="terrier/silky">Terrier Silky</option>
+<option value="terrier/tibetan">Terrier Tibetan</option>
+<option value="terrier/toy">Terrier Toy</option>
+<option value="terrier/welsh">Terrier Welsh</option>
+<option value="terrier/westhighland">Terrier Westhighland</option>
+<option value="terrier/wheaten">Terrier Wheaten</option>
+<option value="terrier/yorkshire">Terrier Yorkshire</option>
+<option value="tervuren">Tervuren</option>
+<option value="vizsla">Vizsla</option>
+<option value="waterdog/spanish">Waterdog Spanish</option>
+<option value="weimaraner">Weimaraner</option>
+<option value="whippet">Whippet</option>
+<option value="wolfhound/irish">Wolfhound Irish</option>
+</select>
+
+<button id="get_api_res_btn">Get Random Picture</button>
+<br>
+<p>
+<div id="api_result1"></div>
+
+<script src="app.js"></script>
+
+</BODY>
+</HTML>
